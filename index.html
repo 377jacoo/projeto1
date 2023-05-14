@@ -4,119 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto</title>
-    <style>
-        .
-        {
-            margin: 0%;
-            padding: 0%;
-        }
-        body
-        {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 25px;
-        }
-        .lixo /*PÁGINA PRINCIPAL*/
-        {
-            height: 400px;
-            background-color: orange;
-        }
-       .amarelo
-       {
-           display: flex;
-           flex-direction: row;
-           justify-content: space-around;
-           width:100%;
-           height: 600px;          
-           background-color:white;
-           
-       }
-       .elixo /*cor laranja*/
-       {
-           width: 620px;       
-           height: 510px;
-           flex-direction: row;         
-           background-color:rgb(255, 94, 0);
-           font-size: 15px;        
-           text-align: justify; 
-           padding: 15px;
-           display: flex;
-           justify-content: space-around;
-           margin-top: 30px;
-           margin-right: 10px;
-           
-           
-       }
-       .jogo /*cor vermelho*/
-       {
-           width: 720px;       
-           height: 510px;  
-           flex-direction: column;       
-           background-color:rgb(255, 38, 0); 
-           padding: 15px;
-           display: flex;
-           justify-content: space-around;
-           margin-top: 30px;
-        }
-        .toxina
-        {
-            height: 500px;
-            background-color:blue;
-        }
-        .rosa
-        {
-            height: 500px;
-            background-color:rgb(235, 57, 155);
-        }
-        /*DIV LIXO 
-        <img src="lixo-eletronico.png" width="1410px" height="510px">
-        */
-
-        /*DIV ELIXO
-        <img src="E-lixo.png" width="700px" height="450px"> 
-        */
-
-        /*DIV JOGO */
-
-        /*DIV TOXINA 
-        <img src="TOXINAS.png" width="700px" height="450px">
-        Os restos de equipamentos eletrônicos contêm mais de 20 tipos de componentes que podem ser extremamente prejudiciais à saúde e ao meio ambiente e podem resultar na contaminação do espaço e das pessoas que fazem a sua manipulação, como as pessoas que separam materiais para reciclagem.
-        Sem saber exatamente como descartar equipamentos e acessórios eletrônicos, muitos consumidores tendem a deixar esses itens armazenados em casa até o dia em que fazem o descarte no lixo comum ou doam para alguém que possa gerar algum lucro com os componentes que possam ser revendidos ou reutilizados. 
-        O descarte desses produtos juntamente com o lixo comum pode gerar o vazamento das substâncias que mencionamos e contaminar o solo e os lençóis freáticos, os quais são responsáveis por boa parte da água que consumimos.
-        */
-
-        /*DIV ROSA
-        Consequências e Possíveis Soluções
-        Visto as consequências negativas que esse tipo de resíduos pode provocar no meio ambiente, a melhor solução é o descarte correto nas empresas ou cooperativas que recebem esses materiais e os levam para a reciclagem.
-        Esse simples ato, faz com que o ambiente não fique poluído e ainda, favorece a economia com o reaproveitamento de materiais que possam ser reciclados.
-        Além do descarte em locais apropriados, doações de aparelhos em funcionamento para entidades sociais, podem ajudar a diminuir esse problema.
-        */
-   </style>
-</head>
-<body>
-    <div class="lixo">
-        <img src="lixo-eletronico.png" width="100%" height="400px">
-    </div>
-    <div class="amarelo">
-        <div class="elixo">
-            <img src="E-lixoo.png" width="300px" height="200px">
-            O QUE É 
-            <br>
-            E-LIXO? 
-            <div class="texto1"></div>
-        </div>
-        <div class="jogo">
-            <div class="texto2"></div>
-        </div>
-    </div>
-    <div class="toxina">
-        <div class="imagem1"></div>
-        <div class="texto3"></div>
-    </div>
-    <div class="rosa">
-        <div class="imagem2"></div>
-        <div class="texto4"></div>
-    </div>
+    <title>Lixo Eletrônico</title>
     
-</body>
-</html>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+<style>
+     
+
+      /* CSS para o layout */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+      }
+
+      #header {
+        background-color: #333;
+        color: #fff;
+        padding: 100px;
+        margin: 0%;
+        text-align: center;
+      }
+
+      #main-image {
+        width: 100%;
+        height: 100vh;
+        background-image: url(main-image.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+      }
+
+      #info {
+        max-width: 800px;
+        margin: 0%;
+        padding: 100px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      h1 {
+        font-size: 36px;
+        margin: 0;
+        padding: 0%;
+        text-align: center;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+    </style>
+  
+</head>
+  
+ 
+<body>
+    
+    
+<header id="header">
+      
+      
+
+     
+<h1>Lixo Eletrônico</h1>
+    </header>
+    
+    
+<div id="main-image"></div>
+    
+    
+<div id="info">
+      
+      
+<h1>O que é Lixo Eletrônico?</h1>
+      <p>Lixo Eletrônico, ou e-lixo, é o termo utilizado para descrever os equipamentos eletrônicos que se tornam obsoletos ou quebrados e, por isso, são descartados. Esse tipo de lixo é composto por dispositivos eletrônicos, como computadores, telefones celulares, televisores, monitores, entre outros.</p>
+      
+      
+
+     
+<h1>Os Malefícios do Lixo Eletrônico</h1>
+      
+      
+<p>O Lixo Eletrônico é um grande problema ambiental, pois contém substâncias tóxicas que podem contaminar o solo, a água e o ar. Além disso, muitos desses equipamentos possuem materiais que não se decompõem facilmente, como o plástico e o metal, o que pode levar a uma acumulação excessiva de lixo.</p>
+    </div>
+  </body>
+
+</html
