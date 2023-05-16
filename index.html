@@ -4,94 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lixo Eletrônico</title>
-    
-   
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
-<style>
-     
+    <title>projeto</title>
+    <style>
+        *
+        {
+            margin: 0%;
+            padding: 0%;
+        }
+        body
+        {
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 25px;
 
-      /* CSS para o layout */
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f0f0f0;
-        margin: 0;
-        padding: 0;
-      }
-
-      #header {
-        background-color: #333;
-        color: #fff;
-        padding: 100px;
-        margin: 0%;
-        text-align: center;
-      }
-
-      #main-image {
-        width: 100%;
-        height: 100vh;
-        background-image: url(main-image.jpg);
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-      }
-
-      #info {
-        max-width: 800px;
-        margin: 0%;
-        padding: 100px;
-        background-color: #fff;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      }
-
-      h1 {
-        font-size: 36px;
-        margin: 0;
-        padding: 0%;
-        text-align: center;
-      }
-
-      p {
-        font-size: 18px;
-        line-height: 1.5;
-        margin-bottom: 20px;
-      }
+        }
+        
+        #cabecalho 
+        {
+          background-color: #333;
+          color: #fff;
+          width: 100%;
+          height: 200px;
+          margin: 0%;
+          text-align: center;
+        }
+        .amarelo
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+            width: 100%;
+            height:400px;          
+            background-color:yellow;
+            font-size: 30px;        
+            text-align: justify;
+        }
+        .vermelho
+        {
+            width: 100%;       
+            height: 300px;
+            flex-direction: row;         
+            background-color:rgb(45, 148, 41);
+            font-size: 15px;        
+            text-align: justify; 
+            padding: 15px;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .preto
+         {
+            width: 600px;       
+            height: 300px;         
+            background-color: blue;
+            flex-direction: column;
+            display: flex;
+            justify-content: space-around;
+         }
+        
     </style>
-  
 </head>
-  
- 
 <body>
-    
-    
-<header id="header">
-      
-      
-
-     
-<h1>Lixo Eletrônico</h1>
-    </header>
-    
-    
-<div id="main-image"></div>
-    
-    
-<div id="info">
-      
-      
-<h1>O que é Lixo Eletrônico?</h1>
-      <p>Lixo Eletrônico, ou e-lixo, é o termo utilizado para descrever os equipamentos eletrônicos que se tornam obsoletos ou quebrados e, por isso, são descartados. Esse tipo de lixo é composto por dispositivos eletrônicos, como computadores, telefones celulares, televisores, monitores, entre outros.</p>
-      
-      
-
-     
-<h1>Os Malefícios do Lixo Eletrônico</h1>
-      
-      
-<p>O Lixo Eletrônico é um grande problema ambiental, pois contém substâncias tóxicas que podem contaminar o solo, a água e o ar. Além disso, muitos desses equipamentos possuem materiais que não se decompõem facilmente, como o plástico e o metal, o que pode levar a uma acumulação excessiva de lixo.</p>
+  <header id="cabecalho">
+      <h1>Lixo Eletrônico</h1>
+  </header>
+  
+  <div class="amarelo">
+    <div class="vermelho">
+        <div class="preto"></div>
+        <div class="preto"></div>
     </div>
-  </body>
+    
 
-</html
+</div>
+    
+</body>
+</html>
