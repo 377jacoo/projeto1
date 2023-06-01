@@ -15,7 +15,7 @@
         }
         body
         {
-            font-family: Arial, Helvetica, sans-serif;
+            font-family:courier,arial,helvetica;
             font-size: 25px;
         }
         #cabecalho 
@@ -78,8 +78,17 @@
             top: 0px;
             right: 0px;
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 25px;
             
+        }
+        .h20
+        {
+            padding: 0px;
+            display: flex;
+            flex-direction:column; 
+            position:absolute;
+            top: 0px;
+            right: 0px;
+            font-size: 20px;
         }
         .h3
         {
@@ -94,6 +103,16 @@
             left: 0px;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 25px;
+        }
+        .h30
+        {
+            padding: 0px;
+            display: flex;
+            flex-direction:row; 
+            position:absolute;
+            top: 0px;
+            right: 0px;
+            font-size: 20px;
         }
        .jogo /*cor vermelho*/
        {
@@ -117,7 +136,7 @@
             width: 800px;       
             height: 300px;  
             flex-direction: column;       
-            background-color:rgb(255, 38, 0); 
+            background-color:rgb(222, 117, 222); 
             padding: 15px;
             display: flex;
             justify-content: space-around;
@@ -127,7 +146,7 @@
         {
             width: 1407px;       
             height: 168px;        
-            background-color:rgb(179, 255, 0); 
+            background-color:rgb(177, 215, 62); 
             padding: 0px;
             display: flex;
             flex-direction:row; 
@@ -153,24 +172,16 @@
         .rosa
         {
             height:200px;
-            background-color:rgb(235, 57, 155);
+            background-color:rgb(24, 21, 23);
         }
-        /*DIV LIXO 
-        <img src="lixo-eletronico.png" width="1410px" height="510px">
-        */
+        .r1
+        {     
+            
+        }
+        
+        /*<img src="TOXINAS.png" width="800px" height="300px"> --- BOTÃO CLICK*/
 
-        /*DIV ELIXO
-        <img src="E-lixo.png" width="700px" height="450px"> 
-        */
-
-        /*DIV JOGO */
-
-        /*DIV TOXINA 
-        <img src="TOXINAS.png" width="700px" height="450px">
-        Os restos de equipamentos eletrônicos contêm mais de 20 tipos de componentes que podem ser extremamente prejudiciais à saúde e ao meio ambiente e podem resultar na contaminação do espaço e das pessoas que fazem a sua manipulação, como as pessoas que separam materiais para reciclagem.
-        Sem saber exatamente como descartar equipamentos e acessórios eletrônicos, muitos consumidores tendem a deixar esses itens armazenados em casa até o dia em que fazem o descarte no lixo comum ou doam para alguém que possa gerar algum lucro com os componentes que possam ser revendidos ou reutilizados. 
-        O descarte desses produtos juntamente com o lixo comum pode gerar o vazamento das substâncias que mencionamos e contaminar o solo e os lençóis freáticos, os quais são responsáveis por boa parte da água que consumimos.
-        */
+        /*https://www.ecycle.com.br/e-waste/*/
 
         /*DIV ROSA
         Consequências e Possíveis Soluções
@@ -188,21 +199,44 @@
     
     <div class="amarelo">
         <div class="elixo">
-            <div class="h1"></div>
-            <div class="h2"></div>
-            <div class="h3"></div>
+            <div class="h1">
+                <img src="E-lixoo.png">
+            </div>
+            <div class="h2">
+                <div class="h20">
+                    E-waste,lixo eletrônico, Resíduos de Equipamentos Elétricos e Eletrônicos (REEE) ou E-lixo são termos utilizados para referir a todos os equipamentos elétricos e eletrônicos, suas partes e acessórios que foram descartados por seus proprietários,sem a intenção de reutilizá-los. As tecnologias do mundo,moderno possibilitam
+                   
+                </div>
+                
+                
+            </div>
+            <div class="h3">
+                <div class="h30">
+                    que novos aparelhos sejam lançados e novas tendências surjam rapidamente no mercado,em um processo planejado que leva o consumidor a substituir seus equipamentos eletrônicos sem necessidade, gerando um volume cada vez maior de e-waste.
+                    O E-lixo é uma preocupação ambiental significativa devido à sua composição complexa e potencialmente tóxica.Muitos desses dispositivos contêm substâncias perigosas,como chumbo,mercúrio,cádmio,berílio e retardadores de chama bromados,que podem ser prejudiciais à saúde humana e ao meio ambiente se não forem descartados corretamente.O descarte inadequado pode resultar em contaminação do solo, da água e do ar.
+                </div>
+               
+            </div>
         </div>
         <div class="jogo">
             
         </div>    
     </div>
     <div class="azul">
-        <div class="t1"></div>
-        <div class="t2"></div>
-        <div class="t3"></div>
+        <div class="t1">
+            <img src="TOXINAS.png" width="800px" height="300px">
+        </div>
+        <div class="t2">
+            tendem a deixar esses itens armazenados em casa até o dia em que fazem o descarte no lixo comum ou doam para alguém que possa gerar algum lucro com os componentes que possam ser revendidos ou reutilizados. 
+        O descarte desses produtos juntamente com o lixo comum pode gerar o vazamento das substâncias que mencionamos e contaminar o solo e os lençóis freáticos, os quais são responsáveis por boa parte da água que consumimos.
+        </div>
+        <div class="t3">
+            Os restos de equipamentos eletrônicos contêm mais de 20 tipos de componentes que podem ser extremamente prejudiciais à saúde e ao meio ambiente e podem resultar na contaminação do espaço e das pessoas que fazem a sua manipulação, como as pessoas que separam materiais para reciclagem.
+        Sem saber exatamente como descartar equipamentos e acessórios eletrônicos, muitos consumidores 
+        </div>
     </div>
     <div class="rosa">
-        <div class="imagem2"></div>
+        <div class="r1"></div>
         <div class="texto4"></div>
     </div>
 </html
